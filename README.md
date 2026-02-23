@@ -34,4 +34,4 @@ EmojiWifi is built with SwiftUI and Swift Package Manager.
 3. Open the resulting `EmojiWifi.app`!
 
 ## 📜 License
-MIT License. Feel free to use and modify it!
+Apache License 2.0. Feel free to use and modify it!
