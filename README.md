@@ -1,77 +1,37 @@
 # EmojiWifi
 
-A simple and elegant macOS app that generates WiFi network names using only emojis! 🚀📶✨
+EmojiWifi is a fun, streamlined macOS menu bar & window application to instantly generate WiFi names (SSIDs) and passwords strictly based on Emojis!
 
-## Features
+## ✨ Features (v2.0)
 
-- **Generate emoji-only WiFi names** - No text, just pure emoji combinations
-- **Multiple generation styles**:
-  - **Combination**: Curated themed emoji combinations (e.g., "🚀🛰️🌌" for Space Station)
-  - **Single Emoji**: Ultra-minimal single emoji names (e.g., "📶")
-  - **Random Length**: Random combinations of 1-4 emojis
-- **Beautiful modern UI** with smooth animations
-- **Copy to clipboard** functionality
-- **Browse all combinations** with search functionality
-- **60+ curated emoji combinations** across various themes:
-  - Tech & Internet (💻📶🌐)
-  - Space & Sci-Fi (🚀🛰️🌌)
-  - Gaming (🎮🎵🎧)
-  - Music (🎵🎧🎤)
-  - Nature (🌲🌻🌱)
-  - Food (🍕🍔🍟)
-  - And many more!
+- **Pure Emoji Generation**: Go wild with WiFi names made from a variety of emoji combinations, single emojis, or strictly randomly assembled strings!
+- **Persistent History**: The app remembers all your generated combinations and scanned codes. 
+- **QR Code Generator & Scanner**: Instantly generate scannable QR codes for your WiFi networks and scan them back using either your Mac's built-in camera or an imported image.
+- **Auto Join**: Automatically connect to the Wi-Fi network that you've just generated or scanned.
+- **No Gatekeeper warnings!**: We now distribute a signed `.app` bundle, resolving any macOS warnings about unverified software.
 
-## Requirements
+## ⬇️ Download & Install
 
-- macOS 13.0 or later
-- Swift 5.9 or later
+**[Download EmojiWifi v2.0 here](https://github.com/dparksports/emoji-wifi-mac/releases/download/v2.0.0/EmojiWifi.zip)**
 
-## Installation & Usage
+1. Download the `EmojiWifi.zip` file from the link above.
+2. Double click to extract it.
+3. Drag the `EmojiWifi.app` to your `/Applications` folder.
+4. Open the app and start generating!
 
-1. Clone or download this repository
-2. Open Terminal and navigate to the project directory
-3. Build the app:
+## 🛠️ Building from Source
+
+EmojiWifi is built with SwiftUI and Swift Package Manager.
+
+1. Clone this repository:
    ```bash
-   swift build
+   git clone https://github.com/dparksports/emoji-wifi-mac.git
    ```
-4. Run the app:
+2. Run the build script to compile and create the `.app` bundle:
    ```bash
-   swift run EmojiWifi
+   ./build-app.sh
    ```
+3. Open the resulting `EmojiWifi.app`!
 
-## How to Use
-
-1. **Choose your style**: Select from Combination, Single Emoji, or Random Length
-2. **Generate**: Click the "Generate" button to create a new emoji WiFi name
-3. **Copy**: Use the "Copy" button to copy the generated name to your clipboard
-4. **Browse**: Click "View All" to see all available combinations and search through them
-
-## Examples
-
-Some example emoji WiFi names you might generate:
-
-- 🚀🛰️🌌 (Space Station)
-- 🎮🎵🎧 (Gaming Hub)
-- 🍕🍔🍟 (Food Network)
-- 😎🔥⚡ (Cool Zone)
-- 🌲🌻🌱 (Nature WiFi)
-- 💻📶🌐 (Tech Hub)
-
-## Themes
-
-The app includes emoji combinations for various themes:
-
-- **Technology**: Computers, networks, internet, gaming
-- **Space**: Rockets, satellites, galaxies, astronauts
-- **Nature**: Trees, flowers, animals, landscapes
-- **Food**: Pizza, burgers, snacks, desserts
-- **Music**: Instruments, headphones, microphones
-- **Emotions**: Cool, happy, mysterious, playful
-- **Weather**: Sun, rain, storms, rainbows
-- **And many more!**
-
-Perfect for creating unique, memorable WiFi network names that stand out! 🌟
-
-## License
-
-This project is open source and available under the MIT License.
+## 📜 License
+MIT License. Feel free to use and modify it!
