@@ -12,7 +12,7 @@ EmojiWifi is a fun, streamlined macOS menu bar & window application to instantly
 
 ## ⬇️ Download & Install
 
-**[Download EmojiWifi v2.0 here](https://github.com/dparksports/emoji-wifi-mac-main/releases/download/v2.0.0/EmojiWifi.zip)**
+**[Download EmojiWifi v2.0 here](https://github.com/dparksports/emoji-wifi-mac/releases/download/v2.0.0/EmojiWifi.zip)**
 
 1. Download the `EmojiWifi.zip` file from the link above.
 2. Double click to extract it.
@@ -25,7 +25,7 @@ EmojiWifi is built with SwiftUI and Swift Package Manager.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/dparksports/emoji-wifi-mac-main.git
+   git clone https://github.com/dparksports/emoji-wifi-mac.git
    ```
 2. Run the build script to compile and create the `.app` bundle:
    ```bash
