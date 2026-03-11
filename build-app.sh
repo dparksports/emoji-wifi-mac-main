@@ -27,6 +27,12 @@ if [ -d "$RESOURCE_BUNDLE" ]; then
     echo "   Copied resource bundle"
 fi
 
+# Copy App Icon
+if [ -f "${APP_NAME}.icns" ]; then
+    cp "${APP_NAME}.icns" "$APP_DIR/Contents/Resources/"
+    echo "   Copied app icon"
+fi
+
 # Create Info.plist
 cat > "$APP_DIR/Contents/Info.plist" << 'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
@@ -42,6 +48,8 @@ cat > "$APP_DIR/Contents/Info.plist" << 'PLIST'
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
+    <string>EmojiWifi</string>
+    <key>CFBundleIconFile</key>
     <string>EmojiWifi</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
